@@ -23,10 +23,11 @@ public class DuckDuckGoSearch {
             if(i != arr.length - 1)
                 q.append("%20");
         }
+        Transcript transcript = new Transcript();
         // GET request sent
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create("https://duckduckgo8.p.rapidapi.com/?q="+q))
-                .header("X-RapidAPI-Key", "8c4ea13a70mshdf3abffbd1c5fc2p1a3a20jsne68f5efa41cc")
+                .header("X-RapidAPI-Key", transcript.getKey())
                 .header("X-RapidAPI-Host", "duckduckgo8.p.rapidapi.com")
                 .method("GET", HttpRequest.BodyPublishers.noBody())
                 .build();
@@ -35,7 +36,7 @@ public class DuckDuckGoSearch {
         System.out.println(response.body());
 
         //GSON and transcript are used to deserialize the response.body() and capture 'query' and 'results'
-        Transcript transcript = new Transcript();
+
         Gson gson = new Gson();
 
         // populates the transcript class setters and getters

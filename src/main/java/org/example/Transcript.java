@@ -4,6 +4,11 @@ import java.util.List;
 
 public class Transcript {
 
+    public String getKey() {
+        return key;
+    }
+
+    private String key = "8c4ea13a70mshdf3abffbd1c5fc2p1a3a20jsne68f5efa41cc";
     public String getQuery() {
         return query;
     }

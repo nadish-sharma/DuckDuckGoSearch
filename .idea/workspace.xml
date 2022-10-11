@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649467de-8312-4dc8-a948-f7c246a65fd5" name="Changes" comment="Project created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DuckDuckGoSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Transcript.java" afterDir="false" />
+    <list default="true" id="649467de-8312-4dc8-a948-f7c246a65fd5" name="Changes" comment="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DuckDuckGoSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DuckDuckGoSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Transcript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Transcript.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,8 @@
       <option name="presentableId" value="Default" />
       <updated>1665469563759</updated>
       <workItem from="1665511857941" duration="5489000" />
-      <workItem from="1665523433649" duration="815000" />
+      <workItem from="1665523433649" duration="1225000" />
+      <workItem from="1665524673478" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1665523842804</created>
@@ -107,7 +107,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665523842804</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="User input for search query created">
+      <created>1665524296175</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665524296175</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Http request for GET created and response recorded">
+      <created>1665524457174</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665524457174</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Transcript and Results class created">
+      <created>1665524527199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665524527199</updated>
+    </task>
+    <task id="LOCAL-00005" summary="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated">
+      <created>1665524616504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665524616504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +154,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project created" />
+    <MESSAGE value="User input for search query created" />
+    <MESSAGE value="Http request for GET created and response recorded" />
+    <MESSAGE value="Transcript and Results class created" />
+    <MESSAGE value="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated" />
+    <option name="LAST_COMMIT_MESSAGE" value="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated" />
   </component>
 </project>
