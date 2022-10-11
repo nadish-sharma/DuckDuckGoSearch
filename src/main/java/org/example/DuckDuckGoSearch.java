@@ -23,5 +23,14 @@ public class DuckDuckGoSearch {
             if(i != arr.length - 1)
                 q.append("%20");
         }
-    }
+        // GET request sent
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://duckduckgo8.p.rapidapi.com/?q="+q))
+                .header("X-RapidAPI-Key", "8c4ea13a70mshdf3abffbd1c5fc2p1a3a20jsne68f5efa41cc")
+                .header("X-RapidAPI-Host", "duckduckgo8.p.rapidapi.com")
+                .method("GET", HttpRequest.BodyPublishers.noBody())
+                .build();
+       // RESPONSE from GET is captured in response.body()
+        HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+        System.out.println(response.body());
 }
