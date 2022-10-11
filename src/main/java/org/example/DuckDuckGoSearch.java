@@ -33,4 +33,17 @@ public class DuckDuckGoSearch {
        // RESPONSE from GET is captured in response.body()
         HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(response.body());
+
+        //GSON and transcript are used to deserialize the response.body() and capture 'query' and 'results'
+        Transcript transcript = new Transcript();
+        Gson gson = new Gson();
+
+        // populates the transcript class setters and getters
+        transcript = gson.fromJson(response.body(), Transcript.class);
+        System.out.println("Your search query is: " + transcript.getQuery()); //transcript.getQuery returns a string value
+        System.out.println("Which number link would you want to open? 1-" + ((transcript.getResults()).size()-2));
+        int k = scan.nextInt();
+        System.out.println(((transcript.getResults()).get(k)).getTitle());
+    }
+
 }
