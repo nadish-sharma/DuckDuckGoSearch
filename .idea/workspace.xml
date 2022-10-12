@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649467de-8312-4dc8-a948-f7c246a65fd5" name="Changes" comment="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated">
+    <list default="true" id="649467de-8312-4dc8-a948-f7c246a65fd5" name="Changes" comment="key was secured">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DuckDuckGoSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DuckDuckGoSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Transcript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Transcript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Results.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +45,11 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/temp-name/IdeaProjects/DuckDuckGoSearch&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -98,7 +101,13 @@
       <updated>1665469563759</updated>
       <workItem from="1665511857941" duration="5489000" />
       <workItem from="1665523433649" duration="1225000" />
-      <workItem from="1665524673478" duration="459000" />
+      <workItem from="1665524673478" duration="545000" />
+      <workItem from="1665525226682" duration="184000" />
+      <workItem from="1665525424053" duration="1356000" />
+      <workItem from="1665541812264" duration="698000" />
+      <workItem from="1665542521455" duration="56000" />
+      <workItem from="1665543339103" duration="760000" />
+      <workItem from="1665544113248" duration="3963000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1665523842804</created>
@@ -135,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665524616504</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="key was secured">
+      <created>1665525154841</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665525154841</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,11 @@
     <MESSAGE value="Http request for GET created and response recorded" />
     <MESSAGE value="Transcript and Results class created" />
     <MESSAGE value="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated" />
-    <option name="LAST_COMMIT_MESSAGE" value="response body was deserialised using GSON and getters and setters of Result and Transcript class were populated" />
+    <MESSAGE value="key was secured" />
+    <option name="LAST_COMMIT_MESSAGE" value="key was secured" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

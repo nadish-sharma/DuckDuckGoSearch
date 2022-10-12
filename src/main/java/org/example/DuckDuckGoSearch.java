@@ -6,7 +6,6 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
-import static jdk.internal.org.objectweb.asm.Type.getType;
 
 public class DuckDuckGoSearch {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -44,7 +43,9 @@ public class DuckDuckGoSearch {
         System.out.println("Your search query is: " + transcript.getQuery()); //transcript.getQuery returns a string value
         System.out.println("Which number link would you want to open? 1-" + ((transcript.getResults()).size()-2));
         int k = scan.nextInt();
-        System.out.println(((transcript.getResults()).get(k)).getTitle());
+        System.out.println("url: "+((transcript.getResults()).get(k-1)).getUrl());
+        System.out.println("Title: "+((transcript.getResults()).get(k-1)).getTitle());
+        System.out.println("Description: "+((transcript.getResults()).get(k-1)).getDescription());
     }
 
 }

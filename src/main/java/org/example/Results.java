@@ -10,16 +10,6 @@ public class Results {
     }
     private String title;
 
-    public int getPosition() {
-        return position;
-    }
-
-    public void setPosition(int position) {
-        this.position = position;
-    }
-
-    private int position;
-
     public String getUrl() {
         return url;
     }
@@ -29,4 +19,15 @@ public class Results {
     }
 
     private  String url;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    private String description;
+
 }
