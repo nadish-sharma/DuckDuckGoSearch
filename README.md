@@ -15,5 +15,6 @@ User is asked to choose any of the 20 links given by the api
 <img width="1339" alt="Screen Shot 2022-10-12 at 5 36 41 PM" src="https://user-images.githubusercontent.com/99782175/195469376-0daad8e6-01db-44cb-a682-ba1eb13da2f4.png">
 
 From the response body, the user chosen link is accepted and only url, title and description from the JSON is displayed to the user
-<img width="1333" alt="Screen Shot 2022-10-12 at 5 35 36 PM" src="https://user-images.githubusercontent.com/99782175/195469995-c7cf66ae-7f07-48b7-b418-ddbb5290aa56.png">
+<img width="1350" alt="Screen Shot 2022-10-12 at 6 14 03 PM" src="https://user-images.githubusercontent.com/99782175/195470453-07bd6cbb-e0f2-4a50-bae6-f9560f25c6e1.png">
+
 
